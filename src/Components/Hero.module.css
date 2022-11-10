@@ -1,0 +1,58 @@
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+    background-color: transparent;
+}
+
+.background {
+    transform: translateZ(-10px) scale(2);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.text {
+    background-color: transparent;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    text-shadow: 4px 4px 15px black;
+    position: relative;
+    bottom: 5rem;
+}
+
+.title {
+    background-color: transparent;
+    font-size: 8rem;
+    line-height: 8rem;
+    color: white
+
+}
+
+.subtitle {
+    background-color: transparent;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: white
+}
+
+.tag {
+    background-color: transparent;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: white
+}
+
+.divider {
+    background-color: transparent;
+    height: .125rem;
+    width: auto;
+    margin: 1rem;
+    color: white
+}

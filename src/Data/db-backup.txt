@@ -1,0 +1,154 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Apples",
+        "featured": true,
+        "imgUrl": "/Assets/Images/Products/apples.jpg",
+        "price": "1.80",
+        "type": "Seed",
+        "color": "Red",
+        "description": "Juicy, sweet, and absolutely delicious. Rich in vitamin A, apples are a delicious and healthy way to get you through your day."
+      },
+      {
+        "id": 2,
+        "name": "Oranges",
+        "featured": true,
+        "imgUrl": "/Assets/Images/Products/oranges.jpg",
+        "price": "1.75",
+        "type": "Citrus",
+        "color": "Orange",
+        "description": "Yep! We've just received a lovely truckload of oranges. Juicy, sweet, and absolutely delicious. Rich in vitamin C, oranges are a delicious and healthy way to get you through your day."
+      },
+      {
+        "id": 3,
+        "name": "Bananas",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/bananas.jpg",
+        "price": "1.00",
+        "type": "Seed",
+        "color": "Yellow",
+        "description": "Bananas are a delicious and nutritious food, packed with energy and vitamin goodness. Bananas are also an excellent source of potassium, an electrolyte needed to keep your body in the right balance of hydration. These bananas are big and tasty, they'll make your mouth water!"
+      },
+      {
+        "id": 4,
+        "name": "Lemons",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/lemons.jpg",
+        "price": "2.60",
+        "type": "Citrus",
+        "color": "Yellow",
+        "description": "At our farm, our lemons are freshly picked each day. We believe in carefully selecting the fruits of our labor. We are dedicated to providing you with a high-quality product that is delicious and healthy."
+      },
+      {
+        "id": 5,
+        "name": "Limes",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/limes.jpg",
+        "price": "3.40",
+        "type": "Citrus",
+        "color": "Green",
+        "description": "Freshly hand-picked limes will be delivered to your doorstep. You can enjoy them at the lime's peak of ripeness and taste the difference in these organic citrus fruits."
+      },
+      {
+        "id": 6,
+        "name": "Strawberries",
+        "featured": true,
+        "imgUrl": "/Assets/Images/Products/strawberries.jpg",
+        "price": "4.50",
+        "type": "Berry",
+        "color": "Red",
+        "description": "Our Extra Large Sweet Tasty Delicious Strawberries are grown, ripened, and shipped quickly to you. These delicious sweet strawberries are perfect for eating plain or adding to smoothies, ice cream, and other desserts."
+      },
+      {
+        "id": 7,
+        "name": "Blueberries",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/blueberries.jpg",
+        "price": "5.30",
+        "type": "Berry",
+        "color": "Blue",
+        "description": "Have you ever seen something so colorful and tasty that you just want to dive in? Blueberries are that tempting and yummy. The sweet, tart, and juicy flavor of blueberries is on full display. A great treat in any situation."
+      },
+      {
+        "id": 8,
+        "name": "Blackberries",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/blackberries.jpg",
+        "price": "3.10",
+        "type": "Berry",
+        "color": "Purple",
+        "description": "We have so many delicious Blackberries that we just can’t keep them all to ourselves. You will love our sweet, juicy and flavorful berries."
+      },
+      {
+        "id": 9,
+        "name": "Raspberries",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/raspberries.jpg",
+        "price": "5.70",
+        "type": "Berry",
+        "color": "Red",
+        "description": "Fresh raspberries are delicious, and perfect for eating raw, cooking into desserts, or making hot drinks with. They have a sweet-tart flavor and are the perfect addition for any meal."
+      },
+      {
+        "id": 10,
+        "name": "Peaches",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/peaches.jpg",
+        "price": "3.60",
+        "type": "Stone",
+        "color": "Orange",
+        "description": "Healthy and delicious, these peaches are sure to delight! Freshly picked from the mountains of Georgia, these tasty treats will be the perfect addition to your breakfast or dessert."
+      },
+      {
+        "id": 11,
+        "name": "Plums",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/plums.jpg",
+        "price": "4.40",
+        "type": "Stone",
+        "color": "Purple",
+        "description": "Plums are good! Sweet, ripe and juicy. They're best when they don't have holes in them or rotten spots so we go out of our way to pick only the best. These plums are large and tasty - perfect for a snack or desert"
+      },
+      {
+        "id": 12,
+        "name": "Cherries",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/cherries.jpg",
+        "price": "3.20",
+        "type": "Stone",
+        "color": "Red",
+        "description": "Delicious, sweet, and sure to please, cherries are a great addition to your desserts. Not only do they help make a cake moist, but they add an irresistible taste!"
+      },
+      {
+        "id": 13,
+        "name": "Apricots",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/apricots.jpg",
+        "price": "3.30",
+        "type": "Stone",
+        "color": "Orange",
+        "description": "Our juicy, sweet and flavorful apricots make a delectable treat. The big plump fruit is rich in vitamin A and beta-carotene, and is one of the many great things California has to offer."
+      },
+      {
+        "id": 14,
+        "name": "Watermelon",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/watermelon.jpg",
+        "price": "1.40",
+        "type": "Seed",
+        "color": "Red",
+        "description": "Watermelon is a juicy, refreshing treat that you can enjoy all summer long. Use it in salads, desserts and shave over meats to add a satisfying crunch to any meal."
+      },
+      {
+        "id": 15,
+        "name": "Kiwi",
+        "featured": false,
+        "imgUrl": "/Assets/Images/Products/kiwi.jpg",
+        "price": "6.10",
+        "type": "Seed",
+        "color": "Green",
+        "description": "The perfect fruit for the whole family, our kiwis are delicious eaten straight from the skin or use in your favorite recipes."
+      }
+    ]
+  }

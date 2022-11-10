@@ -1,0 +1,11 @@
+.brandLogo {
+    position: relative;
+    bottom: 8px;
+}
+
+
+.brandName {
+    font-family: 'Amatic SC', cursive;
+    padding: 0px;
+    margin: 0px;
+}
