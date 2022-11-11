@@ -23,7 +23,7 @@ function App() {
             <Route path="add" element={<ProductForm />} />
             <Route path=":productId/edit" element={<ProductForm />} />
             <Route path=":productId" element={<ProductDetails />} />
-            <Route path="search" element={<SearchResults />}/>
+            <Route path="search" element={<SearchResults />} />
           </Route>
         </Route>
       </Routes>

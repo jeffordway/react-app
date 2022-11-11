@@ -77,9 +77,9 @@ const ProductProvider = (props) => {
             value={{
                 products,
                 featuredProducts,
-                productQuery, 
+                productQuery,
                 setProductQuery,
-                query, 
+                query,
                 setQuery,
                 refreshProducts,
                 refreshFeatured,

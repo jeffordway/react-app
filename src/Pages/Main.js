@@ -8,7 +8,7 @@ function Main() {
         <>
             <Navigation />
             <div className="pb-5">
-            <Outlet />
+                <Outlet />
             </div>
             <div className="fixed-bottom">
                 <Footer />

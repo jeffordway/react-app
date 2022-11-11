@@ -8,7 +8,7 @@ function SearchResults() {
 
     const { productQuery, deleteProduct } = useContext(ProductContext)
 
-  
+
     function generateProductCard(item) {
 
         return (
@@ -34,7 +34,7 @@ function SearchResults() {
     }
 
     function renderList() {
-        return(productQuery.map((product) => generateProductCard(product)))
+        return (productQuery.map((product) => generateProductCard(product)))
     }
 
     function handleDeleteProduct(id) {
@@ -43,10 +43,10 @@ function SearchResults() {
     }
 
     function resultsHeader() {
-        return(
+        return (
             productQuery === null
-            ? "Sorry We Could Not Find Any Results"
-            : "Search Results"
+                ? "Sorry We Could Not Find Any Results"
+                : "Search Results"
         )
     }
 
@@ -55,24 +55,24 @@ function SearchResults() {
 
     return (
         <>
-        <div className="bg-light">
-            <Container >
-                <Row>
-                    <Col className="position-relative">
-                        <div className="m-5 text-center display-1">{resultsHeader()}</div>
-                        <div className="position-absolute top-50 end-0">
-                            <Link className="btn btn-success rounded-0" to={`/products/add`}>
-                                Add New
-                            </Link>
-                        </div>
-                    </Col>
-                </Row>
-                <Row>
-                    {renderList()}
-                </Row>
-            </Container>
-        </div>
-    </>
+            <div className="bg-light">
+                <Container >
+                    <Row>
+                        <Col className="position-relative">
+                            <div className="m-5 text-center display-1">{resultsHeader()}</div>
+                            <div className="position-absolute top-50 end-0">
+                                <Link className="btn btn-success rounded-0" to={`/products/add`}>
+                                    Add New
+                                </Link>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        {renderList()}
+                    </Row>
+                </Container>
+            </div>
+        </>
     )
 }
 

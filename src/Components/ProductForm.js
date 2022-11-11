@@ -51,10 +51,10 @@ function ProductForm() {
 
     function addOrUpdate() {
 
-        return(
-            id ===undefined 
-            ? addProduct(product)
-            :updateProduct(product)
+        return (
+            id === undefined
+                ? addProduct(product)
+                : updateProduct(product)
         )
     }
 

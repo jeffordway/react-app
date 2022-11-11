@@ -52,7 +52,7 @@ function ProductsList() {
                         </Col>
                     </Row>
                     <Row>
-                    {generateProductCards(products)}
+                        {generateProductCards(products)}
                     </Row>
                 </Container>
             </div>
